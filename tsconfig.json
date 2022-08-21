@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "ESNext",
+    "module": "Esnext",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "paths": {
+      "tslib": [
+        "/node_modules/tslib/tslib.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./dist"
+  ]
+}
